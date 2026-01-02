@@ -41,9 +41,13 @@
     .wnpAlbumArt {
         grid-area: wnpAlbumArt;
 
-        padding: 40px 24px 16px 24px;
+        padding: 10px;
         text-align: center;
         overflow: hidden;
+    }
+
+    #mediaSource {
+        visibility: hidden;
     }
 
     .wnpMediaInfo {
@@ -128,7 +132,7 @@
         }
 
         h2 {
-            font-size: calc(1.325rem + .9vw);
+            font-size: calc(30px + .9vw);
         }
 
         h3 {
