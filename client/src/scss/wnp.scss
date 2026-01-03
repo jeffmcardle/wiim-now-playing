@@ -41,7 +41,7 @@
     .wnpAlbumArt {
         grid-area: wnpAlbumArt;
 
-        padding: 10px;
+        padding: none;
         text-align: center;
         overflow: hidden;
     }
@@ -52,7 +52,7 @@
 
     .wnpMediaInfo {
         grid-area: wnpMediaInfo;
-        padding: 0px 24px 0 24px;
+        padding: 10px 10px 0 10px;
     }
 
     .wnpFooter {
